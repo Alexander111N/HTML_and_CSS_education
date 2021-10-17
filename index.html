@@ -5,29 +5,60 @@
     <title>Pied Piper Landing Page</title>
     
     <style>
-        .head {
-            background-color: green;
+        .main_block {
+            width: 1219px;
             border:solid;
         }
+        .head {
+            background-color:#007765;
+            border:solid;
+            /* display: flex;
+            align-items: center; */
+            /* justify-content: center; */
+
+        }
         .label_picture {
-            background-color:grey;
+            /* background-color:grey; */
             padding-top: 20px;
             padding-bottom: 20px;
-            margin-left: 20px;
+            margin-left: 55px;
             display:inline-block;
-            border:solid; 
+            /* border:solid;   */
+            vertical-align: middle;         
         }
         .label_text {
-            background-color:grey;
-            /* padding-top: 20px;
-            padding-bottom: 20px; */
+            /* background-color:grey; */
             display:inline-block;
-            border:solid; 
+            /* border:solid;  */
+            margin-left: 502px;
+            font-family: Roboto, sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            color:  rgba(255, 255, 255, 1);
+            vertical-align: middle;
         }
+        .second_block {
+            height: 403px;
+            line-height: 403px;
+            text-align: center;  
+            background: url(Картинки/Block2.png);
+            background-size: cover;
+            background-position:center;
+        }
+        .second_block span {
+            font-family: Roboro, sans-serif;
+            font-weight: 500;
+            color:#FFFFFF;
+            font-size: 72px; 
+        }
+
+
+
+
     </style>
 </head>
 <body>
-    <div style="width: 1219px; border:solid; ">
+    <div class="main_block">
         <div class="head">
             <div class="label_picture">   
                 <img src="Картинки/logo.png"
@@ -35,10 +66,17 @@
                 height="45px">  
             </div>
             <div class="label_text">   
-                <img src="Картинки/logo.png"
-                width="184px"
-                height="45px">  
+                <span>the problem</span>
+                <span>|</span>
+                <span>PiedPiperCoin</span>
+                <span>|</span>
+                <span>the team</span>
             </div>
+        </div>
+        <div class="second_block">
+            <span>
+                PiperNet Is Here
+            </span>   
         </div>
 
     </div>   
