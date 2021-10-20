@@ -9,6 +9,36 @@
             width: 1219px;
             border:solid;
         }
+        .padding-left-right{
+            padding-left: 55px;
+            padding-right: 55px;
+        }
+        .roboto_700{
+            font-family: Roboto, sans-serif;
+            font-weight: 700;
+        }
+        .roboto_500{
+            font-family: Roboto, sans-serif;
+            font-weight: 500;
+        }
+        .roboto_400{
+            font-family: Roboto, sans-serif;
+            font-weight: 400;
+        }
+        .size_64{
+            font-size: 64px;
+            color: rgba(0, 119, 101, 1);
+            padding-top: 48px;
+        }
+        .size_32{
+            font-size: 32px;
+            color: rgba(0, 0, 0, 1);
+            margin-top: 16px;
+        }
+        .margin_top_bottom{
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
         .head {
             background-color:#007765;
             border:solid;
@@ -31,9 +61,7 @@
             display:inline-block;
             /* border:solid;  */
             margin-left: 502px;
-            font-family: Roboto, sans-serif;
             font-size: 24px;
-            font-weight: 500;
             color:  rgba(255, 255, 255, 1);
             vertical-align: middle;
         }
@@ -46,11 +74,24 @@
             background-position:center;
         }
         .second_block span {
-            font-family: Roboro, sans-serif;
-            font-weight: 500;
             color:#FFFFFF;
             font-size: 72px; 
         }
+        .third_block {
+            height: 719px;
+            background: #EEEEEE;
+            /* margin: auto;  */
+            /* text-align: center; */
+        }
+        .third_block div:first-child {
+            width: 500px;
+            margin:auto;
+            text-align: center;
+            border: solid 1px red;
+        }
+        
+
+
 
 
 
@@ -65,7 +106,7 @@
                 width="184px"
                 height="45px">  
             </div>
-            <div class="label_text">   
+            <div class="label_text roboto_500">   
                 <span>the problem</span>
                 <span>|</span>
                 <span>PiedPiperCoin</span>
@@ -74,9 +115,26 @@
             </div>
         </div>
         <div class="second_block">
-            <span>
+            <span class="roboto_500">
                 PiperNet Is Here
-            </span>   
+            </span>     
+        </div>
+        <div class="third_block padding-left-right">
+            <div class="roboto_500 size_64">The Problem</div>
+            <!-- <div style="text-align: center;"><span class="roboto_500 size_64">The Problem</span></div>   Строчный элемент на случай выбора между блочным. -->
+            <div class="roboto_400 size_32" style="border: solid 1px blue; height: 488px;">
+                <span>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.</span>
+                <p class="margin_top_bottom">What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and<br> freedom.</p>
+                <p class="margin_top_bottom">
+                    But fear not, for Pied Piper has the answer! And it’s simple:
+                    <br> 
+                    An autonomous peer-to-peer network featuring distributed storage powered by universal compression, accelerated scheduling allocation, and end-to-end  encryption.
+                </p>
+                <span>Put even simpler — <span class="roboto_700">it’s the internet, completely decentralized.</span></span>
+            </div>
+        </div>
+        <div class="fourth_block">
+
         </div>
 
     </div>   
