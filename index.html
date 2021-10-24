@@ -3,138 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Pied Piper Landing Page</title>
-    
-    <style>
-        .main_block {
-            width: 1219px;
-            border:solid;
-        }
-        .padding-left-right{
-            padding-left: 55px;
-            padding-right: 55px;
-        }
-        .roboto_700{
-            font-family: Roboto, sans-serif;
-            font-weight: 700;
-        }
-        .roboto_500{
-            font-family: Roboto, sans-serif;
-            font-weight: 500;
-        }
-        .roboto_400{
-            font-family: Roboto, sans-serif;
-            font-weight: 400;
-        }
-        .size_64{
-            font-size: 64px;
-            color: rgba(0, 119, 101, 1);
-            padding-top: 48px;
-        }
-        .size_32{
-            font-size: 32px;
-            color: rgba(0, 0, 0, 1);
-            margin-top: 16px;
-        }
-        .margin_top_bottom{
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-        .head {
-            background-color:#007765;
-            border:solid;
-            /* display: flex;
-            align-items: center; */
-            /* justify-content: center; */
-
-        }
-        .label_picture {
-            /* background-color:grey; */
-            padding-top: 20px;
-            padding-bottom: 20px;
-            margin-left: 55px;
-            display:inline-block;
-            /* border:solid;   */
-            vertical-align: middle;         
-        }
-        .label_text {
-            /* background-color:grey; */
-            display:inline-block;
-            /* border:solid;  */
-            margin-left: 502px;
-            font-size: 24px;
-            color:  rgba(255, 255, 255, 1);
-            vertical-align: middle;
-        }
-        .second_block {
-            height: 403px;
-            line-height: 403px;
-            text-align: center;  
-            background: url(Картинки/Block2.png);
-            background-size: cover;
-            background-position:center;
-        }
-        .second_block span {
-            color:#FFFFFF;
-            font-size: 72px; 
-        }
-        .third_block {
-            height: 719px;
-            background: #EEEEEE;
-            /* margin: auto;  */
-            /* text-align: center; */
-        }
-        .third_block div:first-child {
-            width: 500px;
-            margin:auto;
-            text-align: center;
-            border: solid 1px red;
-        }
-        
-
-
-
-
-
-
-    </style>
+    <link rel="stylesheet" href="index_style.css">
 </head>
 <body>
     <div class="main_block">
-        <div class="head">
-            <div class="label_picture">   
-                <img src="Картинки/logo.png"
-                width="184px"
-                height="45px">  
+        <div class="content_block">
+            <div class="head">
+                <div class="label_picture">   
+                    <img src="Картинки/logo.png" width="184px" height="45px">  
+                </div>
+                <div class="label_text roboto_500">   
+                    <span><a href="#the problem">the problem</a></span>
+                    <span>|</span>
+                    <span><a href="#PiedPiperCoin">PiedPiperCoin</a></span>
+                    <span>|</span>
+                    <span><a href="#the team">the team</a></span>
+                </div>
             </div>
-            <div class="label_text roboto_500">   
-                <span>the problem</span>
-                <span>|</span>
-                <span>PiedPiperCoin</span>
-                <span>|</span>
-                <span>the team</span>
+            <div class="second_block">
+                <span class="roboto_500">
+                    PiperNet Is Here
+                </span>     
             </div>
-        </div>
-        <div class="second_block">
-            <span class="roboto_500">
-                PiperNet Is Here
-            </span>     
-        </div>
-        <div class="third_block padding-left-right">
-            <div class="roboto_500 size_64">The Problem</div>
-            <!-- <div style="text-align: center;"><span class="roboto_500 size_64">The Problem</span></div>   Строчный элемент на случай выбора между блочным. -->
-            <div class="roboto_400 size_32" style="border: solid 1px blue; height: 488px;">
-                <span>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.</span>
-                <p class="margin_top_bottom">What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and<br> freedom.</p>
-                <p class="margin_top_bottom">
-                    But fear not, for Pied Piper has the answer! And it’s simple:
-                    <br> 
-                    An autonomous peer-to-peer network featuring distributed storage powered by universal compression, accelerated scheduling allocation, and end-to-end  encryption.
-                </p>
-                <span>Put even simpler — <span class="roboto_700">it’s the internet, completely decentralized.</span></span>
+            <div class="third_block_content common_padding">
+                <div id="the problem" class="roboto_500 size_64">The Problem</div>
+                <!-- <div style="text-align: center;"><span class="roboto_500 size_64">The Problem</span></div>   Строчный элемент на случай выбора между блочным. -->
+                <div class="roboto_400 size_32">
+                    <span>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.</span>
+                    <br><br>
+                    <span>What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and<br> freedom.</span>
+                    <br><br>
+                    <span>
+                        But fear not, for Pied Piper has the answer! And it’s simple:
+                        <br> 
+                        An autonomous peer-to-peer network featuring distributed storage powered by universal compression, accelerated scheduling allocation, and end-to-end  encryption.
+                    </span>
+                    <br><br>
+                    <span>Put even simpler — <span class="roboto_700">it’s the internet, completely decentralized.</span></span>
+                </div>
             </div>
-        </div>
-        <div class="fourth_block">
-
+            <div class="fourth_block" style="border: solid 1px red;font-size: 48px;"> This is the fourth_block
+            </div>
+            <div  class="fifth_block common_padding">
+                <div  id="PiedPiperCoin" class="roboto_500 size_64">Introducing PiedPiperCoin</div>
+                <div class="roboto_400 size_32">
+                    <a href="#"><img src="Картинки/PPC Logo_block-5.png" width="115px" height="115px"></a>
+                    <span>
+                        Pied Piper's new internet is built <em>for users, by users.</em>
+                        <br>
+                        You supply the storage, compute, and networking resources that power our entire decentralized web.
+                    </span>
+                </div>
+                <div  class="roboto_400 size_32" style="margin-top: 40px;">
+                    <span>
+                        Now there's a way to give credit where credit is due. Compute credit, that is!
+                        The more you share your device resources, the more PiedPiperCoin you receive.
+                        <br>
+                        <br>
+                        Whether you're a developer with an app ready for market, or just an Average Joe with a smartphone you'll love all you can do with PiedPiperCoin.
+                    </span>
+                </div>
+            </div>
+            <div class="six_block common_padding">
+                <div id="the team" class="roboto_500 size_64">The Team</div>
+                <div class="form_for_team" style="margin-bottom: 30px; margin-top: 32px;" >
+                    <div class="team_picture">
+                        <div class="photo"><img src="Картинки/Richard.png" width="168px" height="168px"></div>
+                        <div class="first_label_after_photo roboto_700">Richard Hendricks</div>
+                        <div class="second_label_after_photo roboto_400">Founder & CEO</div>
+                    </div>
+                    <div class="team_picture">
+                        <div class="photo"><img src="Картинки/Dinesh.png" width="168px" height="168px"></div>
+                        <div class="first_label_after_photo roboto_700">Dinesh Chugtai</div>
+                        <div class="second_label_after_photo roboto_400">Senior Programmer</div>
+                    </div>
+                    <div class="team_picture">
+                        <div class="photo"><img src="Картинки/Bertram.png" width="168px" height="168px"></div>
+                        <div class="first_label_after_photo roboto_700">Bertram Gilfoyle</div>
+                        <div class="second_label_after_photo roboto_400">Chief Systems Architect</div>
+                    </div>
+                </div>
+                <div class="form_for_team">
+                    <div class="team_picture">
+                        <div class="photo"><img src="Картинки/Jared.png" width="168px" height="168px"></div>
+                        <div class="first_label_after_photo roboto_700">Jared Dunn</div>
+                        <div class="second_label_after_photo roboto_400">Chief Operating Officer</div>
+                    </div>
+                    <div class="team_picture">
+                        <div class="photo"><img src="Картинки/Monica.png" width="168px" height="168px"></div>
+                        <div class="first_label_after_photo roboto_700">Monica Hall</div>
+                        <div class="second_label_after_photo roboto_400">Chief Financial Officer</div>
+                    </div>
+                    <div class="team_picture">
+                        <div class="photo"><img src="Картинки/Nelson.png" width="168px" height="168px"></div>
+                        <div class="first_label_after_photo roboto_700">Nelson Bighetti</div>
+                        <div class="second_label_after_photo roboto_400">Majority Investor</div>
+                    </div>
+                </div>
+            </div>
+            <div class="sevent_block roboto_400">
+                All other trademarks and copyrights are the property of their respective owners. 
+                Use of these names, trademarks and brands does not imply endorsement.
+            </div>
         </div>
 
     </div>   

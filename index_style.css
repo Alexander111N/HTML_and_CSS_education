@@ -1,0 +1,158 @@
+.main_block {
+
+    border:solid red;
+    /* padding-left: autho;
+    padding-right: autho; */
+}
+.content_block {
+    width: 1219px;
+    border:solid gold;
+    margin: auto;
+}
+/* .main_block>div{
+    text-align: center;
+} */
+.common_padding{
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.roboto_700{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+.roboto_500{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+.roboto_400{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.size_64{
+    font-size: 64px;
+    color: rgba(0, 119, 101, 1);
+}
+.size_32{
+    font-size: 32px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 16px;
+}
+.margin_top_bottom{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.head {
+    background-color:#007765;
+    /* position: fixed; */
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+
+}
+.label_picture {
+    /* background-color:grey; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 55px;
+    display:inline-block;
+    /* border:solid;   */
+    vertical-align: middle;         
+}
+.label_text {
+    /* background-color:grey; */
+    display:inline-block;
+    /* border:solid;  */
+    margin-left: 502px;
+    font-size: 24px;
+    color:  rgba(255, 255, 255, 1);
+    vertical-align: middle;
+}
+.label_text a {
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 1);
+}
+.second_block {
+    height: 403px;
+    line-height: 403px;
+    text-align: center;  
+    background: url(Картинки/Block2.png);
+    background-size: cover;
+    background-position:center;
+}
+.second_block span {
+    color:#FFFFFF;
+    font-size: 72px; 
+}
+.third_block {
+    background: #EEEEEE;
+}
+.third_block div:first-child {
+    width: 500px;
+    margin:auto;
+    text-align: center;
+}
+.fourth_block {
+
+}
+.fifth_block {
+    background: #FFFFFF;
+}
+.fifth_block div:first-child {
+    width: 800px;
+    margin:auto;
+    text-align: center;
+}
+.fifth_block img {
+    float: left;
+    margin-right: 48px;
+}
+.six_block {
+    background:  #EEEEEE;
+}
+.six_block > div:first-child {
+    width: 500px;
+    margin:auto;
+    text-align: center;
+}
+.six_block .photo {
+    padding-left: 91px; 
+    padding-right: 91px; 
+    padding-top: 24px;
+}
+.six_block .first_label_after_photo {
+    text-align: center; 
+    font-size: 24px; 
+    color:rgba(0, 119, 101, 1);
+    margin-top: 12px;
+}
+.six_block .second_label_after_photo {
+    text-align: center; 
+    font-size: 18px; 
+    padding-bottom: 28px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 1);    
+}
+.six_block .team_picture {
+    display: inline-block;
+}
+.form_for_team{
+    text-align: justify;
+    font-size: 0;
+}
+.form_for_team:after {
+    content: '';
+    display: inline-block;
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+    width: 100%; 
+}
+.sevent_block {
+    background: #333333;
+    padding: 48px 340px 64px 340px;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 18px;
+}
