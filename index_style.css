@@ -1,22 +1,10 @@
-.main_block {
 
-    border:solid red;
-    /* padding-left: autho;
-    padding-right: autho; */
-}
 .content_block {
-    width: 1219px;
-    border:solid gold;
-    margin: auto;
-}
-/* .main_block>div{
-    text-align: center;
-} */
-.common_padding{
     padding-left: 55px;
     padding-right: 55px;
-    padding-top: 48px;
-    padding-bottom: 92px;
+    max-width: 1219px;
+    margin: auto;
+    box-sizing: border-box;
 }
 .roboto_700{
     font-family: Roboto, sans-serif;
@@ -34,72 +22,76 @@
     font-size: 64px;
     color: rgba(0, 119, 101, 1);
 }
+.size_48{
+    font-size: 48px;
+    color:rgba(255, 255, 255, 1);
+    font-style: italic;  
+}
 .size_32{
     font-size: 32px;
     color: rgba(0, 0, 0, 1);
     margin-top: 16px;
 }
-.margin_top_bottom{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 .head {
     background-color:#007765;
-    /* position: fixed; */
-    /* display: flex;
-    align-items: center; */
-    /* justify-content: center; */
-
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 .label_picture {
-    /* background-color:grey; */
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 55px;
     display:inline-block;
-    /* border:solid;   */
     vertical-align: middle;         
 }
 .label_text {
-    /* background-color:grey; */
     display:inline-block;
-    /* border:solid;  */
     margin-left: 502px;
     font-size: 24px;
     color:  rgba(255, 255, 255, 1);
-    vertical-align: middle;
 }
 .label_text a {
     text-decoration: none;
     color:  rgba(255, 255, 255, 1);
 }
 .second_block {
-    height: 403px;
-    line-height: 403px;
-    text-align: center;  
     background: url(Картинки/Block2.png);
     background-size: cover;
-    background-position:center;
+    background-position:center center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+    margin-top: 89px;
 }
-.second_block span {
+.second_block div {
     color:#FFFFFF;
     font-size: 72px; 
 }
 .third_block {
     background: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
 }
-.third_block div:first-child {
+.third_block .size_64 {
     width: 500px;
     margin:auto;
     text-align: center;
 }
 .fourth_block {
-
+    background-image: url(Картинки/Block-4.png);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 .fifth_block {
     background: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 92px;
 }
-.fifth_block div:first-child {
+.fifth_block .size_64 {
     width: 800px;
     margin:auto;
     text-align: center;
@@ -110,8 +102,10 @@
 }
 .six_block {
     background:  #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
 }
-.six_block > div:first-child {
+.six_block .size_64 {
     width: 500px;
     margin:auto;
     text-align: center;
@@ -149,10 +143,15 @@
     height: 0;
     width: 100%; 
 }
-.sevent_block {
+.sevent_block_background {
     background: #333333;
-    padding: 48px 340px 64px 340px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+.sevent_block {
     color:  rgba(255, 255, 255, 1);
     text-align: center;
     font-size: 18px;
+    margin: auto;
+    max-width: 540px;
 }
